@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Próximos Eventos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="eventos">
+        <div class="evento">
+            <img src="meet-greet.jpg" alt="Meet & Greet">
+            <h3>Meet & Greet con Diseñadores y Colaboradores</h3>
+            <p><strong>Fecha:</strong> 24 de Julio</p>
+            <p><strong>Descripción:</strong> Únete a nosotros para conocer a nuestros diseñadores y colaboradores.</p>
+        </div>
+        <div class="evento">
+            <img src="promo.jpg" alt="Promoción">
+            <h3>Promoción en Diseño y Desarrollo Web</h3>
+            <p><strong>Fecha:</strong> 10 de Agosto</p>
+            <p><strong>Beneficios:</strong> Hasta un 50% de descuento en todos nuestros servicios de diseño y desarrollo web.</p>
+        </div>
+        <div class="evento">
+            <img src="future-event.jpg" alt="Evento Futuro">
+            <h3>Evento Futuro</h3>
+            <p><strong>Fecha:</strong> Por confirmar</p>
+            <p><strong>Descripción:</strong> Detalles del evento por confirmar.</p>
+        </div>
+    </div>
+</body>
+</html>

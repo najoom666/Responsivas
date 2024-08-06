@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTÁCTANOS</title>
+    <link rel="stylesheet" href="estilos4.css">
+</head>
+<body>
+     <!--MENÚ-->
+    <nav class="menú">
+        <div class="hamburguesa" onclick="mostrar()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="desplegable"> 
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="contáctanos.html">Contactános</a></li> 
+    <div class="container">
+        <h1>¡CONÓCENOS!, Comparte tus datos con nosotros y te enviaremos información.</h1>
+        <form id="contactForm">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            
+            <button type="submit">Enviar Información</button>
+        </form>
+        
+        <div class="whatsapp-icon">
+            <a href="https://wa.me/5218120769196" target="_blank">
+                <img src="Imágenes/chat.jpg" alt="WhatsApp">
+            </a>
+        </div>
+    </div>
+</body>
+</html>

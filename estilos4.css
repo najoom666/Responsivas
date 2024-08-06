@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('Imágenes/puchi.jpg')no-repeat center/cover;
+    margin: 80px;
+    padding: 0;
+}
+.menú ul{
+    float: 0;
+    margin-right: 10px;
+}
+.menú ul li{
+    display: inline-block;
+    margin: 10px 15px;
+}
+.menú ul li a{
+    font-size: 30px;
+    padding: 9px 6px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 65px;
+    background-color: floralwhite;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: rebeccapurple;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    background-color: rebeccapurple;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.whatsapp-icon {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.whatsapp-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+/*Redes Sociales*/
+.redes{
+    color: floralwhite;
+    height: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.espacio{
+    margin: 15px;
+}
